@@ -1,156 +1,56 @@
-.bgimg {
-    background-image: url('https://via.placeholder.com/1000x1000');
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    width: 100%;
-    height: 660px;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
 }
 
-.hearderset {
-    padding-top: 250px;
-    box-sizing: border-box;
-}
-
-.hearderset h2 {
-    font-size: 50px;
-}
-
-.hearderset h1 {
-    font-size: 80px;
-    font-weight: bold;
-}
-
-
-/* Services Area */
-.services {
-    padding: 100px 0px 60px;
-    height: 700px;
-}
-
-.services h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.rowsetting {
-    margin: 80px 0px !important;
-}
-
-.imgsetting {
-    border-radius: 50px;
-    height: 100px;
-    width: 100px;
-}
-
-.fa-shopping-cart, .fa-desktop, .fa-lock {
-    margin-top: 25px;
-}
-
-.rowsetting h2 {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.rowsetting p {
-    padding: 15px;
-    color: #6c757d !important;
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
 }
 
 
-/* Portfolio Area */
-.portfolio {
-    height: 1250px;
-    width: 100%;
-    padding: 100px 0px 50px;
-}
-
-.portfolio h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.card {
-    margin-top: 40px;
-}
 
 
-/* Team Area */
-.team {
-    height: 700px;
-    padding: 100px 0px 60px;
-    width: 100%;
-}
 
-.team h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
 
-.teamsetting {
-    margin-top: 50px !important;
-}
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-.teamsetting h4 {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 30px;
-}
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
 
 
-/* Footer Area */
-.footer {
-    height: 50px;
-}
-
-.footer h6 {
-    line-height: 50px;
-}
 
 
-/* Responsive Area */
-@media(min-width: 992px) {
 
-}
 
-@media(min-width: 768px) and (max-width: 991px) {
-    .hearderset h2 {
-        font-size: 42px;
-    }
-    
-    .hearderset h1 {
-        font-size: 62px;
-        font-weight: bold;
-    }
-}
 
-@media(min-width: 575px) and (max-width: 767px) {
-    
-}
 
-@media(min-width: 480px) and (max-width: 574px) {
-    
-}
-
-@media(max-width: 479px) {
-    .hearderset h2 {
-        font-size: 22px;
-    }
-    
-    .hearderset h1 {
-        font-size: 42px;
-        font-weight: bold;
-    }
-
-    .services {
-        height: 1300px;
-    }
-
-    .portfolio {
-        height: 2700px;
-    }
-
-    .team {
-        height: 1400px;
-    }
-}
