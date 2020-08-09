@@ -6,7 +6,7 @@ Name: Preda Alexandru
 
 Email: alexpreda95@yahoo.com
 
-Copyright (c) 2018 Preda Alexandru
+Copyright (c) 2020 Preda Alexandru
 
 # Description
 Template of a company created with HTML&amp;CSS and Bootstrap 4
